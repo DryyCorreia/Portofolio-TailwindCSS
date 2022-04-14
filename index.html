@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,6 +38,19 @@
                             </li>
                             <li class="group "> 
                                 <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary transation duration-100">Contact</a>
+                            </li>
+                            <li class="items-center">
+                                <div class="fllex">
+                                    <span class="mr-2 text-sm text-slate-500">light</span>
+                                    <input type="checkbox" class="hidden" id="dark-toogle">
+                                    <label for="dark-toogel">
+                                        <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                                            <div class="toggle-circle h-4 w-4 rounded-full bg-white">
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <span class="ml-2 text-sm text-slate-500">dark</span>
+                                </div>
                             </li>
                         </ul>
                     </nav>
@@ -315,6 +328,13 @@
             </div>
         </footer>
     <!-- Footer End -->
+
+    <!-- Bck to top start  -->
+    <a href="#home" class="fixed hidden justify-center items-center bottom-4 right-4 z-[9999] h-14 w-14 rounded-full bg-primary p-4 hover:animate-pulse" id="to-top">
+        <span class="block h-5 w-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
+    </a>
+
+    <!-- Back to top end -->
 
     <script src="dist/js/script.js"></script>
 </body>
